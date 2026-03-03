@@ -18,3 +18,10 @@ class Car (vehiculo):
         print("Your Car is now riding on the road. Great!")
     
     
+class motorbike (vehiculo):
+    def __init__(self, matricula):
+        super().__init__(matricula)
+    
+    #@Override
+    def Ride():
+        print("Your motorbike is now riding on the road. Amazing!")
