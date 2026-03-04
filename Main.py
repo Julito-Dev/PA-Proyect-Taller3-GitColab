@@ -25,3 +25,12 @@ class motorbike (vehiculo):
     #@Override
     def Ride():
         print("Your motorbike is now riding on the road. Amazing!")
+        
+class persona():
+    def __init__(self,name):
+        self.name=name
+    
+    def Greeting(self):
+        return f'Hello {self.name}'
+
+
